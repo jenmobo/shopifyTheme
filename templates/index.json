@@ -1,199 +1,178 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "image_banner": {
       "type": "image-banner",
       "blocks": {
+        "text_YEEaPx": {
+          "type": "text",
+          "settings": {
+            "text": "Super. Simple. Banking.",
+            "text_style": "body"
+          }
+        },
         "heading": {
           "type": "heading",
           "settings": {
-            "heading": "Image banner",
+            "heading": "Simple banking that works like magic.",
             "heading_size": "h0"
           }
         },
-        "text": {
+        "text_Wip9Lc": {
           "type": "text",
           "settings": {
-            "text": "Give customers details about the banner image(s) or content on the template.",
+            "text": "Simple, transparent banking. No hidden fees and free overdrafts.",
             "text_style": "body"
           }
         },
         "button": {
           "type": "buttons",
           "settings": {
-            "button_label_1": "Shop all",
+            "button_label_1": "Demo",
             "button_link_1": "shopify://collections/all",
-            "button_style_secondary_1": true,
-            "button_label_2": "",
+            "button_style_secondary_1": false,
+            "button_label_2": "Sign UP",
             "button_link_2": "",
-            "button_style_secondary_2": false
+            "button_style_secondary_2": true
+          }
+        },
+        "two_images_JTBCNW": {
+          "type": "two_images",
+          "settings": {
+            "image_1": "shopify://shop_images/creditCards.webp",
+            "link_1": "",
+            "link_2": "",
+            "image_width": "100"
           }
         }
       },
       "block_order": [
+        "text_YEEaPx",
         "heading",
-        "text",
-        "button"
+        "text_Wip9Lc",
+        "button",
+        "two_images_JTBCNW"
       ],
       "settings": {
+        "image": "shopify://shop_images/Light_accent.webp",
         "image_overlay_opacity": 40,
         "image_height": "large",
-        "desktop_content_position": "bottom-center",
-        "show_text_box": false,
+        "image_behavior": "none",
+        "desktop_content_position": "top-center",
         "desktop_content_alignment": "center",
+        "show_text_box": false,
         "color_scheme": "scheme-3",
-        "mobile_content_alignment": "center",
         "stack_images_on_mobile": false,
+        "mobile_content_alignment": "center",
         "show_text_below": false
       }
     },
-    "rich_text": {
+    "rich_text_HVUzcF": {
       "type": "rich-text",
       "blocks": {
-        "heading": {
+        "caption_7DQ4jR": {
+          "type": "caption",
+          "settings": {
+            "caption": "Features",
+            "text_style": "caption-with-letter-spacing",
+            "text_size": "medium"
+          }
+        },
+        "heading_GgQydc": {
           "type": "heading",
           "settings": {
-            "heading": "Talk about your brand",
+            "heading": "The only card you’ll ever need. Simple.",
             "heading_size": "h1"
           }
         },
-        "text": {
+        "text_Tc4Ubh": {
           "type": "text",
           "settings": {
-            "text": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.<\/p>"
+            "text": "<p>Spend smarter, lower your bills, get cashback on everything you buy, and unlock credit to grow your business.</p>"
           }
         }
       },
       "block_order": [
-        "heading",
-        "text"
+        "caption_7DQ4jR",
+        "heading_GgQydc",
+        "text_Tc4Ubh"
+      ],
+      "custom_css": [
+        "h2 {font-size: 36px; font-weight: 600;}",
+        "p {width: 755px; font-size: 18px;}",
+        "p.rich-text__caption {font-size: 16px; color: #6941c6;}"
       ],
       "settings": {
-        "color_scheme": "scheme-1",
+        "desktop_content_position": "left",
+        "content_alignment": "left",
+        "color_scheme": "",
         "full_width": true,
-        "padding_top": 40,
-        "padding_bottom": 0
+        "padding_top": 100,
+        "padding_bottom": 52
       }
     },
-    "featured_collection": {
-      "type": "featured-collection",
-      "settings": {
-        "title": "Featured products",
-        "heading_size": "h2",
-        "collection": "all",
-        "products_to_show": 8,
-        "columns_desktop": 4,
-        "color_scheme": "scheme-1",
-        "show_view_all": false,
-        "swipe_on_mobile": false,
-        "image_ratio": "adapt",
-        "show_secondary_image": true,
-        "show_vendor": false,
-        "show_rating": false,
-        "columns_mobile": "2",
-        "padding_top": 28,
-        "padding_bottom": 36
-      }
-    },
-    "collage": {
-      "type": "collage",
+    "image_with_text_R3EREN": {
+      "type": "image-with-text",
       "blocks": {
-        "collection-0": {
-          "type": "collection",
+        "icon_with_text_wU9GHe": {
+          "type": "icon_with_text",
           "settings": {
-            "collection": ""
+            "icon_image": "shopify://shop_images/icon1.webp",
+            "title": "Unlimited cards",
+            "paragraph": "Give your team the autonomy they need with access to as many cards as they need. Authorise purchases with a click. Simple.",
+            "link_label": "Learn More",
+            "link_url": "shopify://pages/contact"
           }
         },
-        "product": {
-          "type": "product",
+        "icon_with_text_DmnR4p": {
+          "type": "icon_with_text",
           "settings": {
-            "product": "",
-            "second_image": false
+            "icon_image": "shopify://shop_images/moneyIcon.webp",
+            "title": "Easy expense policies",
+            "paragraph": "Every card comes with configurable spending limits, purchase restrictions, and cancellations for each employee and team.",
+            "link_label": "Learn More",
+            "link_url": "shopify://pages/contact"
           }
         },
-        "collection-1": {
-          "type": "collection",
+        "icon_with_text_T86rQb": {
+          "type": "icon_with_text",
           "settings": {
-            "collection": ""
+            "icon_image": "shopify://shop_images/arrowIcon.webp",
+            "title": "Advanced analytics",
+            "paragraph": "An all-in-one platform that helps you balance everything your team need to be happy and your finances in order.",
+            "link_label": "Learn More",
+            "link_url": "shopify://pages/contact"
           }
         }
       },
       "block_order": [
-        "collection-0",
-        "product",
-        "collection-1"
+        "icon_with_text_wU9GHe",
+        "icon_with_text_DmnR4p",
+        "icon_with_text_T86rQb"
+      ],
+      "custom_css": [
+        "image-with-text__media {border: none;}"
       ],
       "settings": {
-        "heading": "Multimedia collage",
-        "heading_size": "h2",
-        "desktop_layout": "left",
-        "mobile_layout": "collage",
-        "color_scheme": "scheme-1",
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
-    "video": {
-      "type": "video",
-      "settings": {
-        "heading": "",
-        "video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
-        "heading_size": "h1",
-        "description": "",
-        "full_width": false,
-        "color_scheme": "scheme-1",
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
-    "multicolumn": {
-      "type": "multicolumn",
-      "blocks": {
-        "column1": {
-          "type": "column",
-          "settings": {
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
-            "link_label": "",
-            "link": ""
-          }
-        },
-        "column2": {
-          "type": "column",
-          "settings": {
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
-            "link_label": "",
-            "link": ""
-          }
-        },
-        "column3": {
-          "type": "column",
-          "settings": {
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
-            "link_label": "",
-            "link": ""
-          }
-        }
-      },
-      "block_order": [
-        "column1",
-        "column2",
-        "column3"
-      ],
-      "settings": {
-        "title": "",
-        "heading_size": "h1",
-        "image_width": "third",
-        "image_ratio": "adapt",
-        "columns_desktop": 3,
-        "column_alignment": "center",
-        "background_style": "none",
-        "button_label": "",
-        "button_link": "",
-        "swipe_on_mobile": false,
-        "color_scheme": "scheme-1",
-        "columns_mobile": "1",
+        "image": "shopify://shop_images/cardBlock.webp",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "text_first",
+        "image_behavior": "none",
+        "content_layout": "no-overlap",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "mobile_content_alignment": "left",
+        "section_color_scheme": "",
+        "color_scheme": "",
         "padding_top": 36,
         "padding_bottom": 36
       }
@@ -201,10 +180,7 @@
   },
   "order": [
     "image_banner",
-    "rich_text",
-    "featured_collection",
-    "collage",
-    "video",
-    "multicolumn"
+    "rich_text_HVUzcF",
+    "image_with_text_R3EREN"
   ]
 }

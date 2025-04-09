@@ -431,6 +431,7 @@ table:not([class]) th {
   .small-hide {
     display: none !important;
   }
+
 }
 
 @media screen and (min-width: 750px) and (max-width: 989px) {
@@ -1173,6 +1174,58 @@ deferred-media {
 
 /* component-button */
 /* Button - default */
+
+.button--primary{ 
+  text-decoration: none; 
+  font-weight: 600;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 16px 28px;
+  gap: 12px;
+  width: 107px;
+  height: 60px;
+  background: #FFFFFF;
+  background: color(display-p3 1.000 1.000 1.000);  
+  border: 1px solid #CED5DE;
+  border: 1px solid color(display-p3 0.816 0.835 0.867);  
+  box-shadow: 0px 1px 2px rgba(14, 24, 41, 0.05);
+  box-shadow: 0px 1px 2px color(display-p3 0.063 0.094 0.157 / 0.05);
+  border-radius: 8px;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  color: #344054;
+  min-width: max-content;
+}
+
+.button--secondary{
+  text-decoration: none; 
+  font-weight: 600;  
+  min-width: max-content;
+  box-sizing: border-box;  
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 16px 28px;
+  gap: 12px;
+  width: 122px;
+  height: 60px;
+  background: #0072F7;
+  background: color(display-p3 0.082 0.439 0.937);
+  border: 1px solid #0072F7;
+  border: 1px solid color(display-p3 0.082 0.439 0.937);  
+  box-shadow: 0px 1px 2px rgba(14, 24, 41, 0.05);
+  box-shadow: 0px 1px 2px color(display-p3 0.063 0.094 0.157 / 0.05);
+  border-radius: 8px;
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+  color: #FFFFFF;
+}
 
 .button--secondary,
 .button--tertiary {
@@ -2346,10 +2399,6 @@ input[type='checkbox'] {
   background-color: rgb(var(--color-background));
 }
 
-.header-wrapper--border-bottom {
-  border-bottom: 0.1rem solid rgba(var(--color-foreground), 0.08);
-}
-
 .header {
   display: grid;
   grid-template-areas: 'left-icons heading icons';
@@ -2772,7 +2821,7 @@ details[open] > .header__submenu {
 @media screen and (min-width: 990px) {
   .header__inline-menu {
     display: block;
-  }
+  }  
 
   .header--top-center .header__inline-menu {
     justify-self: center;
