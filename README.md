@@ -54,7 +54,7 @@ Todas las secciones fueron implementadas como archivos `.liquid`, soportan `sche
 - La configuración del theme fue replicada en `/config/settings_data.json`, asegurando consistencia entre entornos de desarrollo y producción.
 - Se mantuvo compatibilidad con el sistema de `theme settings` de Shopify para colores, tipografías y spacing global.
 
-![Visual editor](readmeAssets/visualEditorShopify.jpeg) 
+![Visual editor](readmeAssets/visualEditorShopify.jpg) 
 ---
 
 ## Performance y PageSpeed Insights
@@ -62,8 +62,8 @@ Todas las secciones fueron implementadas como archivos `.liquid`, soportan `sche
 El sitio fue evaluado usando [PageSpeed Insights](https://pagespeed.web.dev/).  
 Resultados:
 
-![Desktop speed](readmeAssets/desktopPageSpeed.jpeg) 
-![Desktop speed](readmeAssets/pageSpeed.jpeg) 
+![Desktop speed](readmeAssets/desktopPageSpeed.jpg)
+![Desktop speed](readmeAssets/pageSpeed.jpg)
 
 
 > ⚠️ Las métricas pueden variar dependiendo de red, tamaño de imagen y dispositivos.
